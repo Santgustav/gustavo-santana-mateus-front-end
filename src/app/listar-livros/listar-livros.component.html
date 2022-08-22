@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="box-formulario mx-auto"
+  style="max-width: 945px">
+
+  <h3 class="principal text-center titulo-principal mb-4">Lista de Livros</h3>
+
+  <div class="col-9 col-sm-5">
+    <input
+    type="text"
+    class="form-control"
+    placeholder="Filtrar livros"/>
+  </div>
+
+  <div>
+    <a [routerLink]="['cadastrar-livro', true]"
+    type="button"
+    class="btn btn-dark btn-md mr-3"
+    data-toggle="tooltip"
+    title="Cadastrar livro">
+    <i class="fa fa-user-plus" aria-hidden="true"></i>
+    </a>
+  </div>
+  </div>
+
+</div>
