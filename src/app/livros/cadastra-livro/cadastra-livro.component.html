@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="box-formulario">
+  <div class="titulo form-group">
+    <label for="nome">Titulo do Livro</label>
+      <input
+        class="form-control"
+        formControlName="titulo"
+        type="text"
+        placeholder="Titulo do Livro"
+      />
+  </div>
+
+  <div class="ano-lancamento form-group">
+    <label for="ano-lancamento">Ano de Lançamento</label>
+      <input
+        name="ano-lancamento"
+        class="form-control"
+        type="date"
+        formControlName="lancamento"
+      />
+  </div>
+
+  <div class="autores form-group">
+    <label for="autores">Autor(es) do Livro</label>
+      <input
+        class="form-control"
+        formControlName="autores"
+        type="text"
+        placeholder="Autor(es) do Livro"
+      />
+  </div>
+
+  <div class="text-center mt-4">
+    <button type="button" (click)="cadastrar()" class="btn btn-dark px-5">Cadastrar</button>
+    <button type="button" (click)="cancelar()" class="btn btn-dark px-5">Cancelar</button>
+  </div>
+  </div>
+  </div>
